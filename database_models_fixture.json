@@ -1,0 +1,126 @@
+[
+    {
+        "model": "images_app.plan",
+        "pk": 1,
+        "fields": {
+            "plan": "Basic",
+            "generate_binary_image": false
+        }
+    },
+    {
+        "model": "images_app.plan",
+        "pk": 2,
+        "fields": {
+            "plan": "Premium",
+            "generate_binary_image": false
+        }
+    },
+    {
+        "model": "images_app.plan",
+        "pk": 3,
+        "fields": {
+            "plan": "Enterprise",
+            "generate_binary_image": true
+        }
+    },
+    {
+        "model": "images_app.thumbnailsize",
+        "pk": 1,
+        "fields": {
+            "name": "200x200",
+            "width": 200,
+            "height": 200
+        }
+    },
+    {
+        "model": "images_app.thumbnailsize",
+        "pk": 2,
+        "fields": {
+            "name": "400x400",
+            "width": 400,
+            "height": 400
+        }
+    },
+    {
+        "model": "images_app.thumbnailsize",
+        "pk": 3,
+        "fields": {
+            "name": "Original",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "model": "images_app.thumbnailsize",
+        "pk": 4,
+        "fields": {
+            "name": "Binary",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 1,
+        "fields": {
+            "plan": 1,
+            "size": 1
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 2,
+        "fields": {
+            "plan": 2,
+            "size": 1
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 3,
+        "fields": {
+            "plan": 2,
+            "size": 2
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 4,
+        "fields": {
+            "plan": 2,
+            "size": 3
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 5,
+        "fields": {
+            "plan": 3,
+            "size": 1
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 6,
+        "fields": {
+            "plan": 3,
+            "size": 2
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 7,
+        "fields": {
+            "plan": 3,
+            "size": 3
+        }
+    },
+    {
+        "model": "images_app.planthumbnailsize",
+        "pk": 8,
+        "fields": {
+            "plan": 3,
+            "size": 4
+        }
+    }
+]
